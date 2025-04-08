@@ -550,7 +550,7 @@ LLM generation completed
 LLM Response: FINAL_ANSWER: Done
 
 
-
+---
 
 <br><br><br>
 Demo of Paint MCP: python talk2mcp-Paint.py <br><
