@@ -86,46 +86,7 @@ The system will:
 
 ## LLM Logs
 
-Successfully retrieved 28 tools
-Creating system prompt...
-Number of tools: 28
-Added description for tool: 1. add(a: integer, b: integer) - Add two numbers
-Added description for tool: 2. add_list(l: array) - Add all numbers in a list
-Added description for tool: 3. subtract(a: integer, b: integer) - Subtract two numbers
-Added description for tool: 4. multiply(a: integer, b: integer) - Multiply two numbers
-Added description for tool: 5. divide(a: integer, b: integer) - Divide two numbers
-Added description for tool: 6. power(a: integer, b: integer) - Power of two numbers
-Added description for tool: 7. sqrt(a: integer) - Square root of a number
-Added description for tool: 8. cbrt(a: integer) - Cube root of a number
-Added description for tool: 9. factorial(a: integer) - factorial of a number
-Added description for tool: 10. log(a: integer) - log of a number
-Added description for tool: 11. remainder(a: integer, b: integer) - remainder of two numbers divison
-Added description for tool: 12. sin(a: integer) - sin of a number
-Added description for tool: 13. cos(a: integer) - cos of a number
-Added description for tool: 14. tan(a: integer) - tan of a number
-Added description for tool: 15. mine(a: integer, b: integer) - special mining tool
-Added description for tool: 16. create_thumbnail(image_path: string) - Create a thumbnail from an image
-Added description for tool: 17. strings_to_chars_to_int(string: string) - Return the ASCII values of the characters in a word
-Added description for tool: 18. int_list_to_exponential_sum(int_list: array) - Return sum of exponentials of numbers in a list
-Added description for tool: 19. fibonacci_numbers(n: integer) - Return the first n Fibonacci Numbers
-Added description for tool: 20. send_email(subject: string, body: string) -
-Sends an email using SMTP.
-
-Args:
-    subject (str): Email subject. Default: "Automated Email from Python".
-    body (str): Plain text email body. Ignored if html_body is provided.
-
-Added description for tool: 21. show_reasoning(steps: array) - Show the step-by-step reasoning process
-Added description for tool: 22. calculate(expression: string) - Calculate the result of an expression
-Added description for tool: 23. verify(expression: string, expected: number) - Verify if a calculation is correct
-Added description for tool: 24. check_consistency(steps: array) - Check if calculation steps are consistent with each other
-Added description for tool: 25. fallback_reasoning(stepdesc: string) - Fallbacks for Errors or Uncertainty
-Added description for tool: 26. draw_rectangle(x1: integer, y1: integer, x2: integer, y2: integer) - Draw a rectangle in Paint from (x1,y1) to (x2,y2) 
-Added description for tool: 27. add_text_in_paint(text: string) - Add text in Paint
-Added description for tool: 28. open_paint() - To open Microsoft Paint
-Successfully created tools description
-Created system prompt...
-Starting iteration loop...
+Starting iteration loop...<br>
 
 --- Iteration 1 ---
 Starting LLM generation...
