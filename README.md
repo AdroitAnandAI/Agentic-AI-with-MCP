@@ -1,7 +1,7 @@
 # Agentic AI and Chain of Thought Prompting with MCP
-CoT prompting system with math reasoning and visualization. LLM talks to MS Paint via custom MCP (Model Context Protocol) server without an API and sends an email<br><br><br>
+CoT prompting system with math reasoning and visualization. LLM talks to MS Paint via custom MCP (Model Context Protocol) server without an API and sends an email<br>
 
-The system uses the Gemini AI model and a custom MCP (Model Control Protocol) server to break down complex mathematical problems into manageable steps.
+The system uses the Gemini AI model and a custom MCP (Model Control Protocol) server to break down complex mathematical problems into manageable steps.<br>
 
 ## Chain of Thought Prompting Strategy
 
