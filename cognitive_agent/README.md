@@ -69,11 +69,11 @@ The agent will:
 
 ## Long-term Memory Usage
 
-The system uses long-term memory to store fixed coordinates for visualization:
+The system **uses long-term memory to store fixed coordinates of the rectangle to be drawn:**
 - x1 = 780, y1 = 380 (top-left corner)
 - x2 = 1000, y2 = 550 (bottom-right corner)
 
-These coordinates are stored during initialization and used consistently throughout the visualization process, ensuring the rectangle is always drawn at the same location.
+These coordinates are stored during initialization and used consistently throughout the visualization process, ensuring the rectangle is always drawn at the **preferred location.**
 
 ## Environment Setup
 
