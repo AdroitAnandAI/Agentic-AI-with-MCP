@@ -62,7 +62,7 @@ The system **uses long-term memory to store fixed coordinates of the rectangle t
 - x1 = 780, y1 = 380 (top-left corner)
 - x2 = 1000, y2 = 550 (bottom-right corner)
 
-These coordinates are stored during initialization and used consistently throughout the visualization process, ensuring the rectangle is always drawn at the **preferred location.**
+These coordinates are stored during initialization and used consistently throughout the visualization process, ensuring the rectangle is always drawn at the **preferred location.** These values can also be fetched as user input and stored in the memory, the same way.
 
 
 ## Usage
