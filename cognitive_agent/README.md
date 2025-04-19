@@ -1,6 +1,9 @@
 # Cognitive Agent Architecture
 
-This project implements a cognitive agent system that processes mathematical expressions and visualizes results using a four-layer cognitive architecture. The system combines mathematical reasoning with visualization capabilities through Microsoft Paint integration.
+This project implements a AI agentic system that solves mathematical expressions iteratively and visualizes the results using a four-layer cognitive architecture. The system combines mathematical reasoning and consistency validation with visualization capabilities through Microsoft Paint integration.
+
+[![Watch the Demo](https://img.youtube.com/vi/oLXX7I1Ju4s/0.jpg)](https://www.youtube.com/watch?v=oLXX7I1Ju4s)
+
 
 ## Architecture Overview
 
@@ -52,6 +55,16 @@ The system uses Pydantic models to define:
 - `ActionResponse`: Handles responses from tool executions
 - `ReasoningType`: Classifies different types of reasoning steps
 
+
+## Long-term Memory Usage
+
+The system **uses long-term memory to store fixed coordinates of the rectangle to be drawn:**
+- x1 = 780, y1 = 380 (top-left corner)
+- x2 = 1000, y2 = 550 (bottom-right corner)
+
+These coordinates are stored during initialization and used consistently throughout the visualization process, ensuring the rectangle is always drawn at the **preferred location.**
+
+
 ## Usage
 
 To run the cognitive agent from parent folder:
@@ -67,13 +80,6 @@ The agent will:
 4. Draw a rectangle at fixed coordinates (stored in long-term memory)
 5. Display the final result inside the rectangle
 
-## Long-term Memory Usage
-
-The system **uses long-term memory to store fixed coordinates of the rectangle to be drawn:**
-- x1 = 780, y1 = 380 (top-left corner)
-- x2 = 1000, y2 = 550 (bottom-right corner)
-
-These coordinates are stored during initialization and used consistently throughout the visualization process, ensuring the rectangle is always drawn at the **preferred location.**
 
 ## Environment Setup
 
