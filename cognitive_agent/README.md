@@ -1,6 +1,6 @@
 # Cognitive Agent Architecture
 
-This project implements a AI agentic system that solves mathematical expressions iteratively and visualizes the results using a four-layer cognitive architecture. The system combines mathematical reasoning and consistency validation with visualization capabilities through Microsoft Paint integration.
+This project implements a AI agentic system that solves mathematical expressions iteratively and visualizes the results using a four-layer cognitive architecture. The system combines mathematical reasoning and consistency validation with visualization capabilities through Microsoft Paint integration. It solves a complex mathematical expression in iteration and write the output on an external tool - Microsoft Paint - after drawing a rectangle, all controlled by the agentic system. The project also demonstrates the use of pydandic and memory to aid an agentic implementation.
 
 [![Watch the Demo](https://img.youtube.com/vi/oLXX7I1Ju4s/0.jpg)](https://www.youtube.com/watch?v=oLXX7I1Ju4s)
 
