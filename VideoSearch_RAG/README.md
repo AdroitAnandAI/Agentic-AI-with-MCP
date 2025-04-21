@@ -117,12 +117,12 @@ The metadata.json will contain the frame number and the corresponding transcript
 ## Example Use Cases
 
 1. **Educational Content Search**:
-   **- "Find the part where they explain neural networks"**
+   - **"Find the part where they explain neural networks"**
    - "Show me examples of machine learning applications"
    - "What are the key concepts in deep learning?"
 
 2. **Content Analysis**:
-   **- Show me frames where machine learning is introduced**
+   - **Show me frames where machine learning is introduced**
    - Find details of mars rover mission from the videos
    - "Search for specific topics in the transcript"
    - "Locate key moments in the video"
