@@ -1,8 +1,8 @@
 # Video Search with RAG and Vector Database
 
-This project implements a Retrieval-Augmented Generation (RAG) system for video content, allowing users to search through video content using natural language queries. **The system processes YouTube videos, extracts frames and transcripts, and creates a searchable vector database using FAISS.**
+This project combines the power of LLMs, Retrieval-Augmented Generation (RAG) and vector databases to allow users to deep search through video content using natural language queries. **As part of MCP server initialization the system downloads a list of YouTube videos, extracts frames and transcripts, and creates a searchable vector database using FAISS.** This preprocessing step is done only for the new videos in the list.
 
- The system combines the power of vector databases (FAISS) with natural language processing to enable efficient search and retrieval of video content. **The agent will iteratively orchestrate between LLM and MCP tools to find out the relevant answer from the videos and gives the answer in textual format. In addition, the agent will open up the video and play from the exact location where the answer is found!**
+The metadata.json will contain the frame number and the corresponding transcript of each segment in all the videos in the repository which is further converted to embedding and indexed for later query. **The agent will iteratively orchestrate between LLM and MCP tools to find out the relevant answer from the videos and gives the answer in text format. In addition to giving textual response, the agent will open up the video and play from the exact location where the answer is found.**
 
  The project  uses two models: 
  1. Google Gemini 2.0 Flash
@@ -67,7 +67,6 @@ This project implements a Retrieval-Augmented Generation (RAG) system for video 
 - Uses FAISS for efficient similarity search
 - Indexes both visual and textual content
 - Maintains embeddings for:
-  - Frame content
   - Transcript segments
   - Combined visual-textual features
 
