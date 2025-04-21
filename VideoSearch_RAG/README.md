@@ -4,6 +4,10 @@ This project implements a Retrieval-Augmented Generation (RAG) system for video 
 
  The system combines the power of vector databases (FAISS) with natural language processing to enable efficient search and retrieval of video content. **The agent will iteratively orchestrate between LLM and MCP tools to find out the relevant answer from the videos and gives the answer in textual format. In addition, the agent will open up the video and play from the exact location where the answer is found!**
 
+ The project  uses two models: 
+ 1. Google Gemini 2.0 Flash
+ 2. Ollama: nomic-embed-text (to embed input query)  
+
  [![Watch the Demo](https://img.youtube.com/vi/uS0lgTFnmMI/0.jpg)](https://www.youtube.com/watch?v=uS0lgTFnmMI)
 
 ## Project Structure
@@ -102,6 +106,14 @@ This project implements a Retrieval-Augmented Generation (RAG) system for video 
    - Search through video content
    - Display relevant results
    - Enable video navigation
+
+**You need to run nomic-embed-text model using ollama locally.**
+
+    ```bash
+   ollama pull nomic-embed-text
+   ollama run nomic-embed-text
+   ollama serve
+   ```
 
 ## Example Use Cases
 
