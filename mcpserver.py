@@ -184,7 +184,7 @@ def send_email(
     from_email = "anandsharespace@gmail.com"
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
-    password = "tzfh perl tulv uhcr"
+    password = ""
 
     # Create message
     msg = MIMEMultipart()
