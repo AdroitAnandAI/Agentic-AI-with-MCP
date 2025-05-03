@@ -20,7 +20,7 @@ from core.loop import AgentLoop
 from core.session import MultiMCP
 
 # Initialize FastMCP server with SSE transport
-mcp = FastMCP("telegram-bot")
+mcp = FastMCP("telegram-bot", transport="sse")
 
 # Configure logging
 logging.basicConfig(
@@ -142,6 +142,7 @@ async def start_bot(token: str):
 
 async def startup_event():
     """Initialize the Telegram bot when the FastAPI app starts."""
+    # token = '7545835743:AAGCQShZBKoyIlWDU5yGZkHt854t0jF3Tio'
     token = os.getenv("TELEGRAM_BOT_TOKEN")
     
     if not token:
@@ -198,4 +199,8 @@ async def mcp_tools():
 
 if __name__ == "__main__":
     print("MCP Server Agent starting with SSE transport")
-    uvicorn.run(app, host="0.0.0.0", port=8000) 
+    if len(sys.argv) > 1 and sys.argv[1] == "dev":
+        mcp.run(transport="sse")  # Run with sse for direct execution
+    else:    
+        uvicorn.run(app, host="0.0.0.0", port=8000) 
+        print("\nShutting down...")
