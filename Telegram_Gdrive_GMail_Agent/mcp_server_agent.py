@@ -142,7 +142,6 @@ async def start_bot(token: str):
 
 async def startup_event():
     """Initialize the Telegram bot when the FastAPI app starts."""
-    # token = '7545835743:AAGCQShZBKoyIlWDU5yGZkHt854t0jF3Tio'
     token = os.getenv("TELEGRAM_BOT_TOKEN")
     
     if not token:
