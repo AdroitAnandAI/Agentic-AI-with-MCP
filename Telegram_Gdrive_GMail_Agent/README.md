@@ -2,6 +2,8 @@
 
 This project demonstrates an intelligent agent that integrates Telegram messaging with Google Drive and Gmail services. The agent processes user requests through a series of tools and services, enabling complex workflows like data collection, storage, and communication.
 
+[![Watch the Demo](https://img.youtube.com/vi/OTtYoVwlHr8/0.jpg)](https://www.youtube.com/watch?v=OTtYoVwlHr8)
+
 ## Project Overview
 
 The project consists of three main components:
