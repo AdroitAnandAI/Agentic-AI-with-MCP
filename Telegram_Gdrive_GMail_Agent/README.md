@@ -25,6 +25,19 @@ The project consists of three main components:
    - Sends emails with sheet links
    - Manages SMTP communication
 
+## Usage Guide
+
+1. **Initial Setup**:
+   ```bash
+   # Install required dependencies
+   pip install -r requirements.txt
+   ```
+
+2. **Video Processing**:
+   ```bash
+   python mcp_server_agent.py
+   ```
+
 ## System Flow
 
 The system follows this general flow:
