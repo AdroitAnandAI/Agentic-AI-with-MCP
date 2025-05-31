@@ -8,7 +8,7 @@ The metadata.json will contain the frame number and the corresponding transcript
  1. Google Gemini 2.0 Flash
  2. Ollama: nomic-embed-text (to embed input query)  
 
- [![Watch the Demo](https://img.youtube.com/vi/kmIghhw9ZFo/1.jpg)](https://www.youtube.com/watch?v=kmIghhw9ZFo)
+ [![Watch the Demo](https://img.youtube.com/vi/uS0lgTFnmMI/0.jpg)](https://www.youtube.com/watch?v=uS0lgTFnmMI) 
 
 ## Project Structure
 
