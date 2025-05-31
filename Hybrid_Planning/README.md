@@ -2,7 +2,9 @@
 
 This project implements an intelligent agent system that combines hybrid planning with memory-indexing and safe Python code execution inside a sandbox. The system is designed to handle complex tasks through a combination of planning, execution, and memory management.
 
-[![Watch the Demo](https://img.youtube.com/vi/kmIghhw9ZFo/1.jpg)](https://www.youtube.com/watch?v=uS0lgTFnmMI)
+<a href="https://www.youtube.com/watch?v=kmIghhw9ZFo">
+    <img src="https://img.youtube.com/vi/kmIghhw9ZFo/maxresdefault.jpg" width="400" height="225" />
+</a>
 
 ## Key Components
 
